@@ -2,9 +2,8 @@ module.exports = function main(str) {
   //字符串转化为数组
   const arr = str;
   arr.split("");
-  var len = arr.length;
   var sum = 0 ;
-  for(var i = 0;i<len;i++)
+  for(var i = 0;i<arr.length;i++)
   {
     sum += Number(arr[i]);
   }
